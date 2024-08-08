@@ -92,7 +92,14 @@ namespace Nuae
         {
             if (videoSourcePlayer1 == null)
                 return;
-            
+            try
+            {
+                if (Camera.cameras[0].IsRunning) { }
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
             Camera.OpenFiles(1);
             Camera.recordings[0] = true;
 
@@ -119,7 +126,15 @@ namespace Nuae
         {
             if (videoSourcePlayer2 == null)
                 return;
-            
+
+            try
+            {
+                if (Camera.cameras[1].IsRunning) { }
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
             Camera.OpenFiles(2);
             Camera.recordings[1] = true;
 
@@ -146,7 +161,14 @@ namespace Nuae
         {
             if (videoSourcePlayer3 == null)
                 return;
-            
+            try
+            {
+                if (Camera.cameras[2].IsRunning) { }
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
             Camera.OpenFiles(3);
             Camera.recordings[2] = true;
             if (!MainPage.mainPage.saveTimer.Enabled)
@@ -172,7 +194,14 @@ namespace Nuae
         {
             if (videoSourcePlayer4 == null)
                 return;
-            
+            try
+            {
+                if (Camera.cameras[3].IsRunning) { }
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
             Camera.OpenFiles(4);
             Camera.recordings[3] = true;
             if (!MainPage.mainPage.saveTimer.Enabled)
@@ -199,7 +228,14 @@ namespace Nuae
         {
             if (videoSourcePlayer5 == null)
                 return;
-            
+            try
+            {
+                if (Camera.cameras[4].IsRunning) { }
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
             Camera.OpenFiles(5);
             Camera.recordings[4] = true;
             if (!MainPage.mainPage.saveTimer.Enabled)
@@ -225,7 +261,14 @@ namespace Nuae
         {
             if (videoSourcePlayer6 == null)
                 return;
-            
+            try
+            {
+                if (Camera.cameras[5].IsRunning) { }
+            }
+            catch (Exception exception)
+            {
+                return;
+            }
             Camera.OpenFiles(6);
             Camera.recordings[5] = true;
             if (!MainPage.mainPage.saveTimer.Enabled)
