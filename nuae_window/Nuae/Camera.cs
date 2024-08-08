@@ -168,7 +168,11 @@ namespace Nuae
             foreach (FilterInfo filterInfo in filters)
             {
                 VideoCaptureDevice camera = new VideoCaptureDevice(filterInfo.MonikerString);
-
+                if (camera.SnapshotCapabilities.Length == 0)
+                {
+                    numberOfCamera--;
+                    continue;
+                }
                 if (!isInCheck(camera.Source))
                 {
                     for(int i = 0; i < cameras.Count; i++)
@@ -189,9 +193,6 @@ namespace Nuae
                         cameras[null_idx] = camera;
                         CamWriters[null_idx] = new VideoFileWriter();
                     }
-                        
-
-                    
                 }
             }
 
