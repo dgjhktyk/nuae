@@ -75,24 +75,24 @@ namespace Nuae
             }
         }
 
-        private void button1_Click(object sender, System.EventArgs e)
-        {
-            if (MainPage.mainPage.sensor_req_timer.Enabled == false)
-            {
-                if (Serial.serial == null || !Serial.serial.IsOpen)
-                {
-                    MessageBox.Show("포트가 연결이 되어있지 않습니다");
-                    return;
-                }
-                MainPage.mainPage.sensor_req_timer.Enabled = true;
-                MainPage.mainPage.get_sensor_data();
-                sensor_info_button.Text = "센서 정보 요청 중단";
-            }
-            else
-            {
-                sensor_info_button.Text = "센서 정보 요청 시작";
-                MainPage.mainPage.sensor_req_timer.Enabled = false;
-            }
-        }
+        //private void button1_Click(object sender, System.EventArgs e)
+        //{
+        //    if (MainPage.mainPage.sensor_req_timer.Enabled == false)
+        //    {
+        //        if (Serial.serial == null || !Serial.serial.IsOpen)
+        //        {
+        //            MessageBox.Show("포트가 연결이 되어있지 않습니다");
+        //            return;
+        //        }
+        //        MainPage.mainPage.sensor_req_timer.Enabled = true;
+        //        MainPage.mainPage.get_sensor_data();
+        //        sensor_info_button.Text = "센서 정보 요청 중단";
+        //    }
+        //    else
+        //    {
+        //        sensor_info_button.Text = "센서 정보 요청 시작";
+        //        MainPage.mainPage.sensor_req_timer.Enabled = false;
+        //    }
+        //}
     }
 }

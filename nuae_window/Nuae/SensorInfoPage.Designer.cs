@@ -51,14 +51,13 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.iaqLevelPicBox = new AForge.Controls.PictureBox();
-            this.sensor_info_button = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.iaqLevelPicBox)).BeginInit();
             this.SuspendLayout();
             // 
             // lb1
             // 
             this.lb1.AutoSize = true;
-            this.lb1.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.lb1.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.lb1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.lb1.Location = new System.Drawing.Point(22, 46);
             this.lb1.Name = "lb1";
@@ -69,7 +68,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label3.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label3.Location = new System.Drawing.Point(22, 154);
             this.label3.Name = "label3";
@@ -80,7 +79,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(22, 100);
             this.label2.Name = "label2";
@@ -91,7 +90,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label4.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label4.Location = new System.Drawing.Point(22, 208);
             this.label4.Name = "label4";
@@ -102,7 +101,7 @@
             // sensor1_temperature
             // 
             this.sensor1_temperature.AutoSize = true;
-            this.sensor1_temperature.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor1_temperature.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor1_temperature.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor1_temperature.Location = new System.Drawing.Point(69, 46);
             this.sensor1_temperature.Name = "sensor1_temperature";
@@ -112,7 +111,7 @@
             // sensor1_humidity
             // 
             this.sensor1_humidity.AutoSize = true;
-            this.sensor1_humidity.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor1_humidity.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor1_humidity.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor1_humidity.Location = new System.Drawing.Point(69, 100);
             this.sensor1_humidity.Name = "sensor1_humidity";
@@ -122,7 +121,7 @@
             // sensor1_pressure
             // 
             this.sensor1_pressure.AutoSize = true;
-            this.sensor1_pressure.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor1_pressure.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor1_pressure.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor1_pressure.Location = new System.Drawing.Point(69, 154);
             this.sensor1_pressure.Name = "sensor1_pressure";
@@ -132,7 +131,7 @@
             // sensor1_gasR
             // 
             this.sensor1_gasR.AutoSize = true;
-            this.sensor1_gasR.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor1_gasR.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor1_gasR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor1_gasR.Location = new System.Drawing.Point(95, 208);
             this.sensor1_gasR.Name = "sensor1_gasR";
@@ -142,7 +141,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(22, 262);
             this.label1.Name = "label1";
@@ -153,7 +152,7 @@
             // sensor1_iaq
             // 
             this.sensor1_iaq.AutoSize = true;
-            this.sensor1_iaq.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor1_iaq.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor1_iaq.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor1_iaq.Location = new System.Drawing.Point(112, 262);
             this.sensor1_iaq.Name = "sensor1_iaq";
@@ -163,7 +162,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label5.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Location = new System.Drawing.Point(22, 19);
             this.label5.Name = "label5";
@@ -174,7 +173,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label6.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label6.Location = new System.Drawing.Point(22, 316);
             this.label6.Name = "label6";
@@ -185,7 +184,7 @@
             // sensor2_iaq
             // 
             this.sensor2_iaq.AutoSize = true;
-            this.sensor2_iaq.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor2_iaq.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor2_iaq.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor2_iaq.Location = new System.Drawing.Point(112, 559);
             this.sensor2_iaq.Name = "sensor2_iaq";
@@ -195,7 +194,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label8.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label8.Location = new System.Drawing.Point(22, 559);
             this.label8.Name = "label8";
@@ -206,7 +205,7 @@
             // sensor2_gasR
             // 
             this.sensor2_gasR.AutoSize = true;
-            this.sensor2_gasR.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor2_gasR.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor2_gasR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor2_gasR.Location = new System.Drawing.Point(95, 505);
             this.sensor2_gasR.Name = "sensor2_gasR";
@@ -216,7 +215,7 @@
             // sensor2_pressure
             // 
             this.sensor2_pressure.AutoSize = true;
-            this.sensor2_pressure.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor2_pressure.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor2_pressure.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor2_pressure.Location = new System.Drawing.Point(69, 451);
             this.sensor2_pressure.Name = "sensor2_pressure";
@@ -226,7 +225,7 @@
             // sensor2_humidity
             // 
             this.sensor2_humidity.AutoSize = true;
-            this.sensor2_humidity.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor2_humidity.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor2_humidity.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor2_humidity.Location = new System.Drawing.Point(69, 397);
             this.sensor2_humidity.Name = "sensor2_humidity";
@@ -236,7 +235,7 @@
             // sensor2_temperature
             // 
             this.sensor2_temperature.AutoSize = true;
-            this.sensor2_temperature.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.sensor2_temperature.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.sensor2_temperature.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.sensor2_temperature.Location = new System.Drawing.Point(69, 343);
             this.sensor2_temperature.Name = "sensor2_temperature";
@@ -246,7 +245,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label13.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label13.Location = new System.Drawing.Point(22, 505);
             this.label13.Name = "label13";
@@ -257,7 +256,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label14.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label14.Location = new System.Drawing.Point(22, 397);
             this.label14.Name = "label14";
@@ -268,7 +267,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label15.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label15.Location = new System.Drawing.Point(22, 451);
             this.label15.Name = "label15";
@@ -279,7 +278,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Gulim", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label16.Font = new System.Drawing.Font("굴림", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label16.Location = new System.Drawing.Point(22, 343);
             this.label16.Name = "label16";
@@ -297,23 +296,12 @@
             this.iaqLevelPicBox.TabIndex = 22;
             this.iaqLevelPicBox.TabStop = false;
             // 
-            // sensor_info_button
-            // 
-            this.sensor_info_button.Location = new System.Drawing.Point(548, 639);
-            this.sensor_info_button.Name = "sensor_info_button";
-            this.sensor_info_button.Size = new System.Drawing.Size(158, 48);
-            this.sensor_info_button.TabIndex = 23;
-            this.sensor_info_button.Text = "센서 정보 요청 시작";
-            this.sensor_info_button.UseVisualStyleBackColor = true;
-            this.sensor_info_button.Click += new System.EventHandler(this.button1_Click);
-            // 
             // SensorInfoPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
             this.ClientSize = new System.Drawing.Size(1036, 755);
-            this.Controls.Add(this.sensor_info_button);
             this.Controls.Add(this.iaqLevelPicBox);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.sensor2_iaq);
@@ -373,6 +361,5 @@
         public System.Windows.Forms.Label label15;
         public System.Windows.Forms.Label label16;
         private AForge.Controls.PictureBox iaqLevelPicBox;
-        private System.Windows.Forms.Button sensor_info_button;
     }
 }
